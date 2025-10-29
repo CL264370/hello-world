@@ -6,12 +6,12 @@ def string_tools(s):
         "title": s.title(),
         "strip": s.strip(),
         "replace": s.replace("a","@"),
-        "split": s.split(),
         "join": "-".join(["a","b"]),
-        "isdigit": s.isdigit(),
         "startswith": s.startswith("h"),
-        "length": len(s)
+        "isdigit": s.isdigit(),
+        "split": s.split(),
+        "legth": len(s)
     }
-text ="  hello world  "
+text = "   hello world   "
 result = string_tools(text)
 print(result)
