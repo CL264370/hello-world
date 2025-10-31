@@ -1,0 +1,12 @@
+travel = ['beijing','xian','shenzhen','dali','sanya']
+print(travel)
+print(sorted(travel))
+print(sorted(travel,reverse=True))
+travel.reverse()
+print(travel)
+travel.reverse()
+print(travel)
+travel.sort()
+print(travel)
+travel.sort(reverse=True)
+print(travel)
