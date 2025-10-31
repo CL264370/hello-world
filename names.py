@@ -44,3 +44,5 @@ print(names[1]+'你还在邀请之列')
 del names[0]
 del names[0]
 print(names)
+len(names)
+print(len(names))
